@@ -17,6 +17,8 @@ public class App
         Coach coach = context.getBean("cricketCoach",Coach.class);
         System.out.println(coach.getDailyTips());
         System.out.println(coach.getDailyFortune());
+        System.out.println(coach.coachName());
+        System.out.println(coach.coachNationality());
         context.close();
     }
 }

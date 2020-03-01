@@ -5,4 +5,9 @@ public interface Coach {
 	public String getDailyTips();
 	
 	public String getDailyFortune();
+	
+	public String coachName();
+	
+	public String coachNationality();
+	
 }
