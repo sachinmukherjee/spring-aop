@@ -16,6 +16,7 @@ public class App
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         Coach coach = context.getBean("cricketCoach",Coach.class);
         System.out.println(coach.getDailyTips());
+        System.out.println(coach.getDailyFortune());
         context.close();
     }
 }
